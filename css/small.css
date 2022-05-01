@@ -19,8 +19,9 @@ body {
     margin: 0 0 .75rem 0;
 }
 .column img {
-    height: 65px;
+    height: 55px;
     width: 65px;
+    padding-top: 5px;
 }
 
 .small-12 {
@@ -44,3 +45,54 @@ footer h2 {
     display: table;
     clear: both;
 }
+
+header {
+    background-color: #9b87b8;
+}
+
+header img {
+    float: left;
+    padding-right: 10px;
+}
+
+header h1, header h2 {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+
+header h1 {
+    padding: .5rem 0 0 0;
+    font-size: 1.95rem;
+}
+
+header h2 {
+    padding: .2rem 0 0 0;
+    font-size: 1.05rem;
+}
+
+button#hamburgerBtn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+
+nav {background-color: #23cfa7;}
+nav ul {margin: 0; padding: 0;}
+nav ul li {list-style-type: none;}
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li.active {background-color: rgba(0, 0, 0, 0.5);}
+nav a:hover {background-color: rgba(0, 0, 0, 0.2);}
+nav ul.open {display: block;}
+nav ul {display: none;}
